@@ -14,7 +14,7 @@ on:
       - "fvm_dispatch_tools/Cargo.toml"
       - "testing/integration/Cargo.toml"
       - "testing/test_actors/Cargo.toml"
-      - "testing/test_actors/actors/*/Cargo.toml"
+      - "testing/test_actors/actors/frc46_factory_token/Cargo.toml"
       - "testing/test_actors/actors/frc46_factory_token/token_impl/Cargo.toml"
   workflow_dispatch:
 
@@ -40,7 +40,7 @@ jobs:
           "fvm_dispatch_tools/Cargo.toml",
           "testing/integration/Cargo.toml",
           "testing/test_actors/Cargo.toml",
-          "testing/test_actors/actors/*/Cargo.toml",
+          "testing/test_actors/actors/frc46_factory_token/Cargo.toml",
           "testing/test_actors/actors/frc46_factory_token/token_impl/Cargo.toml"
         ]
     secrets:
